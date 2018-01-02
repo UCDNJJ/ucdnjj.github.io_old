@@ -1,2 +1,4 @@
 name: Nelson Johansen, PhD Student
 markdown: kramdown
+#Add /blob/ to URLs
+permalink: /blog/:year/:month/:day/:title
