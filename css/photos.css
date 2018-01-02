@@ -1,18 +1,5 @@
-/* .photo-gallery, .photo-gallery li {
-	list-style: none;
-	padding: 0;
-}
- */
 .photo-gallery {
   list-style-type:none;
   display:flex;
   justify-content: center;
-
-}
-.photo-gallery, li{
-  display: list-item;
-  background: white;
-  padding: 5px 10px;
-  color:white;
-  margin: 0 3px;
 }
