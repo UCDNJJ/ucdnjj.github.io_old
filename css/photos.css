@@ -3,12 +3,3 @@
   display:flex;
   justify-content: center;
 }
-
-.photo-gallery > li{
-  display: list-item;
-  background: white;
-  padding: 5px 10px;
-  color:white;
-  margin: 0 3px;
-}
-
