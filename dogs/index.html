@@ -1,0 +1,14 @@
+---
+layout: default
+images:
+  - image_path: /img/nelson-headshot.jpg
+    title: Apple Pie
+  - image_path: /img/nelson-headshot.jpg
+    title: Birthday Cake
+---
+
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>
